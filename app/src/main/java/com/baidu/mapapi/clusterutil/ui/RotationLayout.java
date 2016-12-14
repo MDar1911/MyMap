@@ -9,11 +9,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-/**
- * RotationLayout rotates the contents of the layout by multiples of 90 degrees.
- * <p/>
- * May not work with padding.
- */
+
 public class RotationLayout extends FrameLayout {
     private int mRotation;
 
